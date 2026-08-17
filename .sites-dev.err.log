@@ -1,0 +1,28 @@
+[2m6:42:54 p.m.[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Internal Server Error
+[vinext:google-fonts] C:/Users/dahlo/Desktop/Sideris Terra Website/app/layout.tsx: Missing weight for font `IBM Plex Mono`.
+Available weights: `100`, `200`, `300`, `400`, `500`, `600`, `700`
+    at injectSelfHostedCss (file:///C:/Users/dahlo/Desktop/Sideris%20Terra%20Website/node_modules/vinext/dist/plugins/fonts.js:535:13)
+    at TransformPluginContext.handler (file:///C:/Users/dahlo/Desktop/Sideris%20Terra%20Website/node_modules/vinext/dist/plugins/fonts.js:578:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EnvironmentPluginContainer.transform (file:///C:/Users/dahlo/Desktop/Sideris%20Terra%20Website/node_modules/vite/dist/node/chunks/node.js:30271:14)
+    at async loadAndTransform (file:///C:/Users/dahlo/Desktop/Sideris%20Terra%20Website/node_modules/vite/dist/node/chunks/node.js:24532:26)
+    at async MinimalPluginContext.hotUpdate (file:///C:/Users/dahlo/Desktop/Sideris%20Terra%20Website/node_modules/@vitejs/plugin-rsc/dist/plugin-BhzHKRFo.js:850:8)
+    at async handleHMRUpdate (file:///C:/Users/dahlo/Desktop/Sideris%20Terra%20Website/node_modules/vite/dist/node/chunks/node.js:26768:29)
+    at async onHMRUpdate (file:///C:/Users/dahlo/Desktop/Sideris%20Terra%20Website/node_modules/vite/dist/node/chunks/node.js:26273:35)
+    at async onFileChange (file:///C:/Users/dahlo/Desktop/Sideris%20Terra%20Website/node_modules/vite/dist/node/chunks/node.js:26298:3)
+[2m6:42:58 p.m.[22m [31m[1m[vite][22m[39m [31mInternal server error: [vinext:google-fonts] C:/Users/dahlo/Desktop/Sideris Terra Website/app/layout.tsx: Missing weight for font `IBM Plex Mono`.
+Available weights: `100`, `200`, `300`, `400`, `500`, `600`, `700`[39m
+      at runInRunnerObject (workers/runner-worker/index.js:107:3)
+      at getWorkerEntryExport (workers/runner-worker/index.js:235:17)
+      at null.<anonymous> (workers/runner-worker/index.js:354:24)
+      at maybeCaptureError (workers/runner-worker/index.js:51:10)
+[2m6:42:58 p.m.[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Internal Server Error
+[vinext:google-fonts] C:/Users/dahlo/Desktop/Sideris Terra Website/app/layout.tsx: Missing weight for font `IBM Plex Mono`.
+Available weights: `100`, `200`, `300`, `400`, `500`, `600`, `700`
+    at runInRunnerObject (workers/runner-worker/index.js:107:3)
+    at getWorkerEntryExport (workers/runner-worker/index.js:235:17)
+    at null.<anonymous> (workers/runner-worker/index.js:354:24)
+    at maybeCaptureError (workers/runner-worker/index.js:51:10)
+[2m6:42:58 p.m.[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vinext] RSC HMR error: close@http://localhost:3000/node_modules/.vite/deps/react-server-dom-webpack_client__browser.js?v=456f80b5:2363:36
+progress@http://localhost:3000/node_modules/.vite/deps/react-server-dom-webpack_client__browser.js?v=456f80b5:2436:28
+
