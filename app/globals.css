@@ -23,7 +23,7 @@
 .hero-copy h1 { margin-top: 1.7rem; max-width: 12ch; font-size: clamp(3.5rem, 7vw, 6.4rem); line-height: .92; letter-spacing: -.045em; }
 .hero-lede, .section-lede { color: rgb(242 243 239 / .68); font-size: 1.1rem; line-height: 1.75; }
 .hero-lede { max-width: 38rem; margin-top: 2rem; }
-.button-row { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2.25rem; }
+
 .hero-image { position: relative; margin: 0; border-left: 1px solid var(--border); padding-left: 1.25rem; }
 .hero-image img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; filter: grayscale(.72) contrast(1.08); }
 .hero-image figcaption { margin-top: .8rem; color: rgb(242 243 239 / .5); font-family: var(--font-plex-sans), sans-serif; font-size: .66rem; letter-spacing: .08em; text-transform: uppercase; }
