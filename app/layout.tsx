@@ -7,6 +7,7 @@ const plexSans = IBM_Plex_Sans({ variable: "--font-plex-sans", subsets: ["latin"
 const plexMono = IBM_Plex_Mono({ variable: "--font-plex-mono", subsets: ["latin"], weight: ["400", "500", "600", "700"] });
 const newsreader = Newsreader({ variable: "--font-newsreader", subsets: ["latin"], weight: ["400", "500", "600", "700"] });
 
+
 const title = "Sideris Terra | Parcel-level Agricultural Intelligence";
 const description = "Sideris Terra is building a parcel-level crop monitoring platform and seeking early pilot partners.";
 
@@ -19,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title,
     description,
-    openGraph: { title, description, type: "website", images: socialImage ? [{ url: socialImage, width: 1200, height: 630, alt: "Sideris Terra â€” Understand crop stress. Earlier." }] : undefined },
+    openGraph: { title, description, type: "website", images: socialImage ? [{ url: socialImage, width: 1200, height: 630, alt: "Sideris Terra ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Understand crop stress. Earlier." }] : undefined },
     twitter: { card: "summary_large_image", title, description, images: socialImage ? [socialImage] : undefined },
   };
 }
