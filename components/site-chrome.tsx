@@ -16,5 +16,5 @@ export function SiteHeader() {
 }
 
 export function SiteFooter() {
-  return <footer className="site-footer"><div className="site-width footer-inner"><div><Brand /><p>Parcel-level agricultural intelligence.</p></div><div className="footer-meta"><a href={`mailto:${CONTACT_EMAIL}`}>Email</a><span>(c) 2026 Sideris Terra</span></div></div></footer>;
+  return <footer className="site-footer"><div className="site-width footer-inner"><div><Brand /><p>Parcel-level agricultural intelligence.</p><div className="affiliation"><img src="/enginelogo.png" alt="Engine at McGill University" /><span>Part of the TechAccel program at Engine, McGill University</span></div></div><div className="footer-meta"><a href={`mailto:${CONTACT_EMAIL}`}>Email</a><a href="https://www.linkedin.com/company/sideris-terra/" target="_blank" rel="noreferrer" aria-label="Sideris Terra on LinkedIn">LinkedIn</a><span>(c) 2026 Sideris Terra</span></div></div></footer>;
 }
