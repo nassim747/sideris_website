@@ -45,5 +45,18 @@
     "vite": "8.0.13",
     "wrangler": "4.92.0"
   },
+  "optionalDependencies": {
+    "@cloudflare/workerd-linux-64": "1.20260515.1",
+    "@cloudflare/workerd-windows-64": "1.20260515.1",
+    "@rolldown/binding-linux-x64-gnu": "1.0.1",
+    "@rolldown/binding-linux-x64-musl": "1.0.1",
+    "@rolldown/binding-win32-x64-msvc": "1.0.1",
+    "@tailwindcss/oxide-linux-x64-gnu": "4.2.1",
+    "@tailwindcss/oxide-linux-x64-musl": "4.2.1",
+    "@tailwindcss/oxide-win32-x64-msvc": "4.2.1",
+    "lightningcss-linux-x64-gnu": "1.31.1",
+    "lightningcss-linux-x64-musl": "1.31.1",
+    "lightningcss-win32-x64-msvc": "1.31.1"
+  },
   "type": "module"
 }
